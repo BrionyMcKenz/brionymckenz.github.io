@@ -1,0 +1,739 @@
+<!doctype html>
+<html class="no-js" lang="en-gb">
+
+<head>
+    <meta charset="utf-8">
+    <title>Briony McKenzie CV 2020</title>
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,minimum-scale=1.0">
+
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Merriweather:wght@700;900&family=PT+Mono&display=swap" rel="stylesheet">
+
+    <style>
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
+        body {
+            background-color: #fbfbfb;
+            font-family: 'Atkinson Hyperlegible', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        main {
+            display: block;
+        }
+
+        .wrapper--content {
+            background-color: #fbfbfb;
+            margin-top: -1px;
+        }
+
+        .container {
+            max-width: 90%;
+            margin: 0 auto;
+            padding: .5rem 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 1170px;
+            }
+        }
+
+        .container--narrow{
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .wrapper--header {
+            background-color: #333;
+        }
+
+        .wrapper--footer {
+            background-color: #333;
+            display: block;
+            position: relative;
+            padding: 0 0 1rem 0;
+        }
+
+        footer {
+            text-align: center;
+            color: #fff;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            flex-flow: row wrap;
+        }
+
+
+        .header__item {
+            color: #333;
+            flex-basis: 33%;
+        }
+
+        .header__item--info {
+            font-family: "Merriweather", serif;
+        }
+      
+        .header__title {
+            font-size: 2.4rem;
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: .06rem;
+            margin: 0;
+            color: #f5f5f5;
+        }
+
+        .header__subtitle {
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #d8d8d8;
+        }
+
+        .header__item--image {
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        @media (min-width: 768px) {
+            .header__image {
+                display: block;
+            }
+        }
+
+        .svg__background {
+            fill: #fbfbfb;
+            display: block;
+        }
+
+
+        .image {
+            max-width: 50%;
+        }
+
+        .image--circle {
+            border-radius: 50%;
+            border: 4px solid #f5f5f5;
+            max-height: 8rem;
+        }
+
+        .header__item--contact {
+            font-weight: 400;
+            letter-spacing: 0.05rem;
+            line-height: 1.6;
+            color: #f5f5f5;
+        }
+        
+        @media (min-width: 768px) {
+            .header__item--contact {
+                text-align: right;
+            }
+        }
+
+        .emailLink {
+            color: #f5f5f5;
+            display: block;
+        }
+
+        .section__heading {
+            font-family: "Merriweather", serif;
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 0;
+            font-weight: 700;
+            letter-spacing: 0.03rem;
+            line-height: 1.25;
+            margin: 0;
+            display: inline-block;
+        }
+
+        .section__subheading {
+            font-family: "Merriweather", serif;
+            color: #333;
+            font-size: 1.2rem;
+            letter-spacing: 0.05rem;
+            font-weight: 400;
+            line-height: 1.6;
+            margin-top: 0;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+        }
+
+        .section__subtitle {
+            font-size: 1.2rem;
+            letter-spacing: 0.05rem;
+            font-weight: 400;
+            line-height: 1.6;
+            margin: 1.5rem 0;
+            text-decoration: underline;
+            padding-left: 1.5rem;
+        }
+
+        .section__header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem 0 1.5rem 0;
+        }
+
+        .section__header svg {
+            width: 2.4rem;
+            height: 2.4rem;
+            fill: #333;
+            margin-right: 0.8rem;
+        }
+
+        .section__header .icon--qualification {
+            stroke: #333;
+            stroke-width: 10;
+        }
+
+        .section__icon {
+            fill: #333;
+            width: 3rem;
+            height: 3rem;
+        }
+
+        ul {
+            list-style-type: circle;
+            margin-bottom: 1.5rem;
+        }
+
+        .section {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 1.5rem;
+            font-size: 1.2rem;
+            padding-top: 1rem;
+        }
+
+        .section--hidden {
+            display: none;
+        }
+
+        .section.qualifications {
+            border: 0;
+        }
+
+        .summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: row wrap-reverse;
+        }
+
+        .quote {
+            font-size: 1.6rem;
+            margin: 0 auto 1.5rem auto;
+            line-height: 1.6;
+            text-align: center;
+            max-width: 75%;
+        }
+
+        .quote__mark {
+            font-family: PT Mono, monospace;
+            font-size: 1.4em;
+            vertical-align: middle;
+        }
+
+        .item {
+            max-width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .item {
+                flex-basis: 50%;
+                max-width: 50%;
+            }
+        }
+
+        .skillsContainer {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 2rem;
+        }
+
+        .primaryBox {
+            border-bottom: 1px solid #ddd;
+            padding: 1rem 0;
+            line-height: 1.8;
+            width: 100%;
+            text-align: center;
+        }
+
+        .secondaryBox {
+            margin-top: 2rem;
+            text-align: center;
+            width: 100%;
+            line-height: 1.8;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+        }
+
+        .tertiaryBox {
+            width: 100%;
+            text-align: center;
+            line-height: 1.8;
+            padding-top: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .secondaryBox {
+                width: 65%;
+                border-right: 1px solid #ddd;
+                border-bottom: 0;
+                padding-bottom: 0;
+            }
+
+            .tertiaryBox {
+                width: 34%;
+            }
+        }
+
+
+        .primaryBox__word {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .secondaryBox__word {
+            font-size: 1.5em;
+        }
+
+        .tertiaryBox__word {
+            font-size: 1em;
+        }
+
+        .tools__container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        @media (min-width: 768px) {
+            .tools__container {
+                text-align: center;
+            }
+        }
+
+        .tools__container p {
+            margin: 0.5rem;
+        }
+
+        .tools__row p {
+            display: block;
+        }
+
+        .section__framework {
+            display: flex;
+            justify-content: space-evenly;
+            border-top: 1px solid #ddd;
+            padding-top: 1.5rem;
+            flex-flow: row wrap;
+        }
+
+        .word--framework {
+            display: inline-block;
+            margin-right: .5rem;
+        }
+
+        .word--language {
+            margin-right: .5rem;
+        }
+
+        @media (min-width: 768px) {
+
+            .word--language,
+            .word--framework {
+                margin-right: 0;
+            }
+        }
+
+        .section__language {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section__language .primaryBox {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 2rem;
+            flex-flow: row wrap
+        }
+
+        .section__language .secondaryBox {
+            margin-bottom: 2rem;
+        }
+
+        .section__language .tertiaryBox {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+
+        .svg__background--footer {
+            transform: scaleX(-1) scaleY(-1);
+            transform: scaleX(-1) scaleY(-1);
+            display: inline-block;
+            margin-top: -1px;
+        }
+
+        .bonus {
+            border-top: 2px solid #ddd;
+        }
+
+        @media print {
+            html {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper--header">
+        <header class="container header">
+            <div class="header__item header__item--info">
+                <h1 class="header__title">Briony McKenzie</h1>
+                <p class="header__subtitle">Developer</p>
+            </div>
+            <div class="header__item header__item--image">
+                <img class="image image--circle" src="https://image.ibb.co/mosJfH/briony_square.jpg" alt="Picture of Briony on holiday in Switzerland doing via ferrata" />
+            </div>
+            <div class="header__item header__item--contact">
+                <a href="mailto:briony@protonmail.com" class="emailLink">brionymckenzie19@gmail.com</a>
+                <a href="tel:07713155252" class="emailLink">07713155282</a>
+            </div>
+        </header>
+        <div class="header__svg">
+            <svg class="svg__background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" viewBox="0 0 513 34" preserveAspectRatio="none" xml:space="preserve">
+                <polygon points="513,0 513,34 0,34 0,17 " />
+            </svg>
+        </div>
+    </div>
+    <div class="wrapper--content">
+        <main class="container">
+            <section class="section summary">
+                <div class="item item--left">
+                    <p>I specialise in front end development with a particular focus on cross-device compatibility and
+                        user interaction.
+                        My attention to detail alongside my ability to see the big picture throughout a project gives me
+                        a unique
+                        perspective.
+                    </p>
+                    <p>As a self-taught developer, I am quick to learn new technologies and enjoy learning in my free
+                        time.</p>
+                    <p>I love working with clients. Understanding and nurturing their vision is at the heart of what I
+                        do every
+                        day.
+                    </p>
+                </div>
+                <div class="item item--right">
+                    <p class="quote">
+                        <span class="quote__mark">“</span>I build front end solutions that provide meaningful
+                        interactions and an engaging user journey.
+                        <span class="quote__mark">”</span>
+                    </p>
+                </div>
+            </section>
+            <!--experience icon-->
+            <section class="section experience">
+                <div class="section__header">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 448">
+                        <path
+                            d="M367 95c9.25 9.25 17 27.75 17 41v288c0 13.25-10.75 24-24 24h-336c-13.25 0-24-10.75-24-24v-400c0-13.25 10.75-24 24-24h224c13.25 0 31.75 7.75 41 17zM256 34v94h94c-1.5-4.25-3.75-8.5-5.5-10.25l-78.25-78.25c-1.75-1.75-6-4-10.25-5.5zM352 416v-256h-104c-13.25 0-24-10.75-24-24v-104h-192v384h320zM96 200c0-4.5 3.5-8 8-8h176c4.5 0 8 3.5 8 8v16c0 4.5-3.5 8-8 8h-176c-4.5 0-8-3.5-8-8v-16zM280 256c4.5 0 8 3.5 8 8v16c0 4.5-3.5 8-8 8h-176c-4.5 0-8-3.5-8-8v-16c0-4.5 3.5-8 8-8h176zM280 320c4.5 0 8 3.5 8 8v16c0 4.5-3.5 8-8 8h-176c-4.5 0-8-3.5-8-8v-16c0-4.5 3.5-8 8-8h176z">
+                        </path>
+                    </svg>
+                    <h2 class="section__heading">Experience</h2>
+                </div>
+
+                <div class="container--narrow">
+                    <h3 class="section__subheading">
+                        <span>Developer Leader - Chess Digital</span>
+                        <span>2018 - present</span>
+                    </h3>
+                    <p>My role as a leader includes managing another developer as well as improving coding, quality
+                        and Scrum standards across the business. I have created extensive documentation and provided mentorship 
+                        on good front end development practices. Most recently I have been helping make accessibility an integral 
+                        part of our development process.
+                    </p>
+    
+                    <h3 class="section__subheading">
+                        <span>Developer - Chess Digital</span>
+                        <span>2016 - present</span>
+                    </h3>
+                    <p>I am involved in web and software projects throughout the entire project lifecycle; from the initial
+                        analysis and specification stages, through to development and deployment. My main responsibilities
+                        are
+                        creating style bases; writing the HTML and Javascript for our web and software projects; and
+                        providing insight and guidance
+                        on User Experience (UX) across the team. My speciality
+                        is in front end development but I am usually involved in writing code across the full tech stack.
+                    </p>
+                    <p>Most of the projects I am currently working on are Umbraco websites, where I am involved in all aspects of 
+                        development; however I have also worked on a number of single page applications and bespoke software solutions.
+                       
+                    </p>
+                    <p>Additionally, I manage and maintain the product backlog for a number of projects; I work with clients
+                        on requirements
+                        elicitation; and I am involved in promoting the use of Scrum to improve our development process.</p>
+                    <p class="section__subtitle">Highlights</p>
+                    <ul>
+                        <li>Lead Developer and Product Owner on a project to build an employee engagement application and
+                            take it to market.</li>
+                        <li>Implemented a scalable, modular, readable and reusable CSS skeleton that our team reuses across
+                            projects.</li>
+                        <li>Encouraging a focus on user experience and helping shape our development team's mindset to
+                            consider requirements from the users' perspective.</li>
+                        <li>Introduced the use of flexbox, CSS grid and custom SVG icon sets, reducing our reliance on third party
+                            frameworks
+                            and improving the performance of our software.</li>
+                        <li>Building trust and nurturing strong relationships with our clients.</li>
+                    </ul>
+                    <br>
+                    <h3 class="section__subheading">
+                        <span>Creative Analyst - Chess Digital (IRW Systems)</span>
+                        <span>2013 - 2016</span>
+                    </h3>
+                    <p>This role was an introduction to building client relationships and embracing a design-driven
+                        development process.
+                        I was involved in pre-sales and requirements analysis for numerous clients, building strong
+                        relationships
+                        that last to this day. My key responsibility was translating requirements into wireframes and
+                        designs.</p>
+                </div>
+            </section>
+            <!--skills icon-->
+            <section class="section skills">
+                <div class="section__header">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 28.03">
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Line_2" data-name="Line 2">
+                                <g id="_1" data-name="1">
+                                    <path class="cls-1"
+                                        d="M31.13.86a3,3,0,0,0-4.19,0l-17.18,17c-2.1,0-5,.7-6.27,4.81A3.79,3.79,0,0,1,0,24.7a9,9,0,0,0,12.86,1.09,4.8,4.8,0,0,0,1.29-4L31.13,5A2.9,2.9,0,0,0,31.13.86ZM11.46,24.41c-1,.91-5.38,2.95-8,1a6.36,6.36,0,0,0,1.58-2.11,5.33,5.33,0,0,1,5.69-3.69L12.16,21A2.8,2.8,0,0,1,11.46,24.41Zm2.09-4.83-1.4-1.38,2.09-2.07,1.4,1.38Zm16.18-16L17,16.14l-1.4-1.38L28.34,2.24a1,1,0,0,1,1.4,0A1,1,0,0,1,29.74,3.61Z" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h2 class="section__heading">Key Skills</h2>
+                </div>
+                <div class="skillsContainer">
+                    <div class="secondaryBox">
+                        <div class="word secondaryBox__word">Front end development</div>
+                        <div class="word secondaryBox__word">Scalable and readable CSS codebases</div>
+                        <div class="word secondaryBox__word">Interaction Design</div>
+                        <div class="word secondaryBox__word">Requirements analysis</div>
+                        <div class="word secondaryBox__word">Developing for accessibility</div>
+                        <div class="word secondaryBox__word">Umbraco development</div>
+
+                    </div>
+                    <div class="tertiaryBox">
+                        <div class="word tertiaryBox__word">Javascript/Typescript</div>
+                        <div class="word tertiaryBox__word">Wireframing/Prototyping</div>
+                        <div class="word tertiaryBox__word">Animation</div>
+                        <div class="word tertiaryBox__word">Icon systems</div>
+                        <div class="word tertiaryBox__word">SVG</div>
+                    </div>
+                </div>
+            </section>
+            <!--languages icon-->
+            <section class="section languages">
+                <div class="section__header">
+                    <svg aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" viewBox="0 0 352.5 450" style="enable-background:new 0 0 352.5 450;"
+                        xml:space="preserve">
+                        <g>
+                            <path d="M180.1,201.1c12.5-3.6,19.7-16.6,16.1-29c-3.6-12.5-16.6-19.7-29-16.1c-12.5,3.6-19.7,16.6-16.1,29
+                                C154.7,197.4,167.7,204.6,180.1,201.1z" />
+                            <path d="M211.4,90.3c10.4-3,16.5-13.9,13.5-24.3c-3-10.4-13.9-16.5-24.3-13.5c-10.4,3-16.5,13.9-13.5,24.3
+                                C190.1,87.3,201,93.3,211.4,90.3z" />
+                            <path d="M239.6,233.3H112.9L44,362.3c-5.6,10.4-5.3,23,0.8,33.1c6.1,10.1,17,16.3,28.8,16.3h205.1c11.8,0,22.8-6.2,28.8-16.3
+                                c6.1-10.1,6.4-22.7,0.8-33.1L239.6,233.3z M235.2,345c-20,5.7-40.8-5.8-46.5-25.8c-5.7-20,5.8-40.8,25.8-46.5
+                                c20-5.7,40.8,5.8,46.5,25.8C266.7,318.4,255.1,339.2,235.2,345z" />
+                        </g>
+                        <path stroke="#333" stroke-width="3"
+                            d="M250.8,167.4V17h-20v155.4L326.2,351c8.8,16.5,8.3,36.8-1.3,52.9c-9.6,16.1-27.3,26.1-46,26.1H73.7c-18.8,0-36.4-10-46-26.1
+                            c-9.6-16.1-10.1-36.4-1.3-52.9l95.4-178.5V17H78.4v0h23.3v150.4l-93,174.1c-12.1,22.7-11.5,50.6,1.8,72.6
+                            C23.7,436.3,47.9,450,73.7,450h205.1c25.8,0,50-13.7,63.2-35.8c13.2-22.1,13.9-49.9,1.8-72.7L250.8,167.4z" />
+                        <path stroke="#333" stroke-width="12"
+                            d="M271.4,17H81c-2.8,0-5-2.3-5-5V5c0-2.8,2.3-5,5-5l190.4,0c2.8,0,5,2.3,5,5v7C276.5,14.8,274.2,17,271.4,17z" />
+                    </svg>
+
+                    <h2 class="section__heading">Languages and Frameworks</h2>
+                </div>
+                <div class="section__language">
+                    <div class="primaryBox">
+                        <div class="primaryBox__word word--language">CSS</div>
+
+                        <div class="primaryBox__word word--language">HTML</div>
+
+                        <div class="primaryBox__word word--language">SCSS</div>
+
+                        <div class="primaryBox__word word--language">Javascript</div>
+
+                    </div>
+                    <div class="secondaryBox">
+                        <div class="secondaryBox__word word--language">Flexbox</div>
+                        <div class="secondaryBox__word word--language">Razor</div>
+                        <div class="secondaryBox__word word--language">C#</div>
+                        <div class="secondaryBox__word word--language">.NET</div>
+                    </div>
+
+                    <div class="tertiaryBox">
+                        <div class="tertiaryBox__word word--language">Typescript</div>
+
+                        <div class="tertiaryBox__word word--language">SVG</div>
+
+                        <div class="tertiaryBox__word word--language">SQL</div>
+
+                        <div class="tertiaryBox__word word--language">MongoDB</div>
+                    </div>
+                </div>
+                <div class="section__framework">
+                    <div class="secondaryBox__word word--framework">BEM</div>
+
+                    <div class="secondaryBox__word word--framework">React</div>
+
+                    <div class="secondaryBox__word word--framework">Angular</div>
+
+                    <div class="secondaryBox__word word--framework">Scrum</div>
+
+                    <div class="secondaryBox__word word--framework">Git</div>
+
+                    <div class="secondaryBox__word word--framework">Umbraco</div>
+                </div>
+            </section>
+            <!--tools icon-->
+            <section class="section tools">
+                <div class="section__header">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <rect x="17.455" y="34.909" style="fill:none;" width="477.091" height="106.473" />
+                        <rect x="17.455" y="141.382" style="fill:none;" width="477.091" height="335.709" />
+
+                        <path d="M494.545,17.455H17.455C7.564,17.455,0,25.018,0,34.909v442.182c0,9.891,7.564,17.455,17.455,17.455
+                                h477.091c9.891,0,17.455-7.564,17.455-17.455V34.909C512,25.018,504.436,17.455,494.545,17.455z M477.091,52.364v71.564H34.909
+                                V52.364H477.091z M34.909,459.636v-300.8h442.182v300.8H34.909z" />
+                        <path
+                            d="M178.036,393.891c-4.073,0-7.564-1.164-11.055-4.073L79.709,320c-4.073-3.491-6.4-8.145-6.4-13.382
+                                s2.327-10.473,6.4-13.382l87.273-69.818c7.564-5.818,18.618-4.655,24.436,2.909s4.655,18.618-2.909,24.436l-70.4,56.436
+                                l70.4,56.436c7.564,5.818,8.727,16.873,2.909,24.436C188.509,391.564,183.273,393.891,178.036,393.891z" />
+                        <path d="M329.309,393.891c-5.236,0-10.473-2.327-13.382-6.4c-5.818-7.564-4.655-18.618,2.909-24.436
+                                l70.4-56.436l-70.982-56.436c-7.564-5.818-8.727-16.873-2.909-24.436s16.873-8.727,24.436-2.909l87.273,69.818
+                                c4.073,3.491,6.4,8.145,6.4,13.382c0,5.236-2.327,10.473-6.4,13.382l-87.273,69.818
+                                C336.873,392.727,333.382,393.891,329.309,393.891z" />
+                        <path d="M219.345,446.255c-1.164,0-2.909,0-4.073-0.582c-9.309-2.327-15.127-11.636-12.8-20.945
+                                l61.673-242.618c2.327-9.309,11.636-15.127,20.945-12.8s15.127,11.636,12.8,20.945l-61.673,242.618
+                                C234.473,441.018,226.909,446.255,219.345,446.255z" />
+                    </svg>
+
+                    <h2 class="section__heading">Development Tools</h2>
+                </div>
+                <div class="tools__container">
+                    <div class="tools__row">
+                        <p>Adobe Illustrator</p>
+                        <p>Adobe Photoshop</p>
+                        <p>Balsamiq</p>
+                        <p>Icomoon</p>
+                    </div>
+                    <div class="tools__row">
+                        <p>Visual Studio Code</p>
+                        <p>Visual Studio</p>
+                        <p>Codepen</p>
+                        <p>SQL Server Management Studio</p>
+                    </div>
+                    <div class="tools__row">
+                        <p>Figma</p>
+                        <p>Postman</p>
+                        <p>Microsoft Azure</p>
+                        <p>Azure Devops</p>
+                    </div>
+                </div>
+            </section>
+            <!--qualifications icon-->
+            <section class="section qualifications">
+                <div class="section__header">
+
+                    <svg aria-hidden="true" class="icon--qualification" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 405.075 405.075"
+                        style="enable-background:new 0 0 405.075 405.075;" xml:space="preserve">
+                        <path d="M373.488,337.075l-59.2-104c6-2.8,9.6-9.2,9.2-16.4l-4.4-36.8l25.2-26.4c5.6-5.6,6-15.2,0.4-22l-25.2-27.2l5.2-37.2
+                                        c0.8-8-4.8-16-12.8-17.6l-36.4-7.2l-17.6-32.4c-3.6-7.6-12.4-10.8-20.4-7.6h-0.4l-33.6,15.6l-32.8-16c-3.6-2-8-2.4-12-1.2
+                                        c-4,1.2-7.2,4-9.2,7.6l-18,32.4l-36.4,6.4c-8.4,1.6-14,9.2-13.2,18l4.4,36.8l-25.2,26.4c-5.6,5.6-6,15.2-0.4,22l25.2,27.2
+                                        l-5.2,37.2c-0.8,7.2,3.6,14,10.4,16.8l-59.6,105.6c-1.6,2.4-1.2,5.6,0,8c1.6,2.4,4,4,6.8,4h64l29.2,50.8c1.6,2.4,4,4,6.8,4
+                                        s5.6-1.6,6.8-4l57.2-97.6l57.2,98.8c1.6,2.4,4,4,6.8,4s5.6-1.6,6.8-4l29.2-52h64c2.8,0,5.6-1.6,6.8-4
+                                        C375.088,342.675,375.088,339.475,373.488,337.075z M138.688,379.875l-24.8-42.8c-1.6-2.4-4-4-6.8-4h-55.2l55.2-97.6l22.8,4
+                                        l17.6,32.4c3.6,7.6,12.4,10.8,20.4,7.6h0.4l16.4-7.6l8,14L138.688,379.875z M161.888,265.075c-0.4,0-0.4,0-0.4,0l-17.6-33.2
+                                        c-2.4-4-6.4-7.2-11.2-7.6l-36.8-6.8l5.2-36.8c0.8-4.8-0.8-10-4-13.2l-24.8-27.2l25.2-26.4c3.6-3.6,5.2-8.4,4.4-13.2l-4.4-36.4
+                                        c0,0,0-0.4,0.4-0.8l36.4-6.4c4.4-0.8,8.8-3.6,11.2-8l18-32.4l32.8,16c4.4,2.4,10,2.4,14.4,0l33.2-15.2c0.4,0,0.4,0,0.4,0
+                                        l17.6,33.2c2.4,4,6.4,7.2,10.8,7.6l36.4,7.2l-5.2,36.8c-0.8,4.8,0.8,10,4,13.2l25.2,27.2l-25.6,26.4c-3.6,3.6-5.2,8.4-4.4,13.2
+                                        l4.4,36.8l-36,6c-4.4,0.8-8.8,3.6-11.2,8l-18,32.4l-32.8-16c-4.4-2.4-10-2.4-14.4,0L161.888,265.075z M297.888,333.075
+                                        c-2.8,0-5.6,1.6-6.8,4l-24.8,44l-56.4-97.6c-0.4-1.2-0.8-2-1.6-2.8l-8.8-15.6l2.8-1.2l32.8,16c2.4,1.2,4.8,1.6,7.2,1.6
+                                        c5.6,0,11.2-2.8,14-8l18-32.4l24-4.4l54.8,96.4H297.888z" />
+                        <path
+                            d="M282.288,141.075c0-44-36-80-80-80s-80,36-80,80s36,80,80,80S282.288,185.075,282.288,141.075z M202.288,205.075
+                                        c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S237.488,205.075,202.288,205.075z" />
+                    </svg>
+                    <h2 class="section__heading">Professional Qualifications</h2>
+                </div>
+                <p>Professional Scrum Master</p>
+                <p>Microsoft Certified: Azure Fundamentals</p>
+            </section>
+        </main>
+        <aside class="container section section--hidden bonus">
+            <p>Other things I have experience in, but not necessarily expertise, include:</p>
+            <ul>
+                <li>Automated deployment and continuous integration with Azure Devops</li>
+                <li>CSLA, MVC, ASP.NET</li>
+                <li>CSS Grid</li>
+                <li>REST APIs</li>
+                <li>Kendo UI</li>
+                <li>Selenium webdriver tests</li>
+                <li>Unit testing with MSTest</li>
+            </ul>
+        </aside>
+    </div>
+
+    <div class="wrapper--footer">
+        <svg class="svg__background svg__background--footer" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 513 34" preserveAspectRatio="none"
+            xml:space="preserve">
+            <polygon points="513,0 513,34 0,34 0,17 " />
+        </svg>
+        <footer>
+            <p>2023</p>
+            <p>Briony McKenzie</p>
+        </footer>
+    </div>
+</body>
+
+</html>
